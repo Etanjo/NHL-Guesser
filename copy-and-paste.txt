@@ -1,0 +1,12 @@
+ if (await ti.readYesOrNo()) {
+            ti.clear();
+            ti.output('Your team must be the Boston Bruins!')
+            ti.output('Want to play again?')
+            if (await ti.readYesOrNo()) { startGame() }
+          }else{
+              ti.clear();
+            ti.output('Your team must be the Toronto Maple Leafs!')
+            ti.output('Want to play again?')
+            if (await ti.readYesOrNo()) { startGame()
+          }
+          }
